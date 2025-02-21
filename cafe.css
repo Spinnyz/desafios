@@ -69,6 +69,10 @@ a:hover{
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 110px;
+    text-align: center;
     padding: 20px;
     background: linear-gradient(120deg, #160A00, #183D3D);
     color: #DCB391;
