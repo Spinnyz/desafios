@@ -15,7 +15,7 @@ header{
     padding: 0 20px; 
     background: linear-gradient(120deg, #160A00, #183D3D);
     color: #DCB391;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 2px 2px 2px 2px #DCB391 ;
 }
 
@@ -76,7 +76,7 @@ footer{
     padding: 20px;
     background: linear-gradient(120deg, #160A00, #183D3D);
     color: #DCB391;
-    border-radius: 8px;
+    border-radius: 15px;
     box-shadow: 2px 2px 2px 2px #DCB391 ;
     font-family: 'Roboto', sans-serif;
 }
