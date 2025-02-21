@@ -56,8 +56,23 @@ a:hover{
 }
 .title{
     font-family: 'Amatic SC', cursive;
+    margin-left: 12%;
+    font-size: 30px;
 }
 
 .text{
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-left: 12%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(120deg, #160A00, #183D3D);
+    color: #DCB391;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #DCB391 ;
     font-family: 'Roboto', sans-serif;
 }
