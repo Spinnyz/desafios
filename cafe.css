@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #FFE2CA, #FFF1E6);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+    background: linear-gradient(120deg, #160A00, #183D3D);
+    color: #DCB391;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #DCB391 ;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.logo{
+    display: flex;
+    font-family: 'Amatic SC', cursive;
+    font-size: 0.9em;
+}
+
+li{
+    
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+a{
+    color: #DCB391;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+a:hover{
+    transition: 0,5s;
+    text-decoration: underline;
+    color: #e4c8b2;
+}
+.title{
+    font-family: 'Amatic SC', cursive;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+}
