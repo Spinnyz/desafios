@@ -50,9 +50,21 @@ article p{
     color: gray;    
 }
 
+
 main{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;  
+    height: 100vh;
+}
+
+.text{
+
+    position: absolute;
+    top: 800px;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    marigin-: 10px;
 }
