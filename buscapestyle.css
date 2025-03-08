@@ -1,12 +1,13 @@
 @charset "Utf-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
-
-.logo{
-    display: flex;
-    font-family: 'Amatic SC', cursive;
-    font-size: 0.9em;
+header{
+    background-color: #f;
 }
 
 img{
