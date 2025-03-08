@@ -7,10 +7,11 @@
 
 
 header{
-    background-color: #f;
+    background-color: #ffcc00;
+    
 }
 
 img{
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 50px;
 }
