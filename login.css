@@ -6,6 +6,7 @@
 
 
 body{
+    height: 100dvh;
     background-color: #282f35;
     color: #fff;
     font-family: sans-serif;
@@ -16,5 +17,7 @@ body{
 
 
 .login{
-    
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
 }
