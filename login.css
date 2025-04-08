@@ -18,7 +18,8 @@ body{
 
 .login{
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(37, 19, 19) ;
+    box-shadow: 1px 1px 1px black;
     padding: 10px;
     width: 500px;
     height: 300px;
