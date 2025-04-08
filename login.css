@@ -17,7 +17,10 @@ body{
 
 
 .login{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: black;
     padding: 10px;
+    width: 500px;
+    height: 300px;
+    
 }
