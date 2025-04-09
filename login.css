@@ -65,3 +65,11 @@ input#ibutao:hover{
     transition: 0.5s;
     background-color: blueviolet;
 }
+
+.fotologin {
+    background: url('https://res.cloudinary.com/codier/image/upload/v1609414119/qpavrf8bokc5irbjzeln.png');
+    width: 300px;
+    height: 900px;
+    background-size: cover; /* ou contain */
+    background-position: center;
+}
