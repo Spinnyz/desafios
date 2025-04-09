@@ -62,5 +62,6 @@ input#ibutao{
 }
 
 input#ibutao:hover{
-    tr
+    transition: 0.5s;
+    background-color: blueviolet;
 }
