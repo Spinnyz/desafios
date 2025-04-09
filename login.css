@@ -41,9 +41,10 @@ input#imail, input#isenha{
     margin: 10px;
 }
 
-input#ibutao{
-    display: block;
-    
-
-
+.butao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
+
