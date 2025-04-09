@@ -31,11 +31,12 @@ body{
 }
 
 .fotologin{
-  background-image: url(https://pt.pngtree.com/freepng/users-vector_3725294.html);
+  background-image: url("https://pt.pngtree.com/freepng/users-vector_3725294.html");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  width: 100%;
+  height:100%;
 
 }
 
