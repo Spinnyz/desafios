@@ -48,3 +48,9 @@ input#imail, input#isenha{
     margin-top: 10px;
 }
 
+input#ibutao{
+    background-color: rgb(37, 19, 19);
+    border-radius: 50px;
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
