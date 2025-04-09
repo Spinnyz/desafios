@@ -53,4 +53,14 @@ input#ibutao{
     border-radius: 50px;
     border: 2px solid blueviolet;
     padding: 10px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.664);
+
+}
+
+input#ibutao:hover{
+    tr
 }
