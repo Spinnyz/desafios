@@ -23,6 +23,7 @@ function mudarcor() {
         fundo.style.backgroundColor = ("pink")
     }else if (valor == 9){
         fundo.style.backgroundColor = ("blueviolet")
+        cback.innerHTML (""Background Color: Blueviolet")
     }
  
 }
