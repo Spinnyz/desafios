@@ -5,7 +5,7 @@
 
 
 body{
-    background-color: rgb(99, 99, 226);
+   background-color: rgb(84, 84, 202);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,7 +34,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     margin-top: 30px;
-    height: 400px;
+    height: 200px;
 }
 
 
@@ -45,9 +45,41 @@ body{
 }
 
 
-img{
+.img{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3135/3135715.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 200px;
     height: 200px;
     border-radius: 30px;
     margin-top: 10px;
+}
+
+.contimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.preencher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.preencha{
+    font-size: 20px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
 }
