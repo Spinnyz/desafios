@@ -5,7 +5,7 @@ var atualano = document.querySelector ("input#iano")
 var botão = document.querySelector ("input#iver")
 
 function analizador(){
-    if (atualano.value.length > 4 || atualano.value > ano){
+    if (atualano.value.length == 0 || atualano.value > ano){
         alert ("Verifique o ano novamente")
     } else {
         alert ("Ano correto")
