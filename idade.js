@@ -5,11 +5,9 @@ var atualano = document.querySelector ("input#iano")
 var botão = document.querySelector ("input#iver")
 
 function analizador(){
-    if (atualano.value.length == 0 || atualano.value > 1920){
-        alert ("Verifique o ano novamente")
-    } else {
-        alert ("Ano correto")
-    }
+    if (Number(atualano.value) > ano || atualano.value.length < 4 || atualano.value.length > 4 || Number(atualano.value) < 1908 || atualano.value.length == 0) {
+        alert ("Ano inválido")
+    }else if ()
 
 
 }
