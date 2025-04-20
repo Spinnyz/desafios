@@ -89,3 +89,15 @@ footer {
 .img {
     margin-bottom: 20px;
 }
+.texto {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.texto, img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #00000050;
+}

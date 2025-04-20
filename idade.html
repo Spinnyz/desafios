@@ -1,56 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Idade</title>
-    <link rel="stylesheet" href="idade.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="title">
-            <h1>Verificador de Idade</h1>
-        </div>
-    </header>
+    <h1 class="title">Verificador de Idade</h1>
 
-    <main>
-        <div class="container">
-            <div class="dados">
-                <form action="">
-                    <div class="date">
-                        <label for="iano">Ano de nascimento:
-                            <input type="number" name="ano" id="iano" placeholder="Digite o ano de nascimento" required max="2025" min="1908"> 
-                        </label>
-                    </div>
+    <div class="container">
+        <div class="dados">
+            <div class="date">
+                <label for="iano">Ano de nascimento:</label>
+                <input type="text" id="iano" placeholder="Ex: 2009">
+            </div>
 
-                    <div class="sex">
-                        Sexo:
-                        <label for="imas">
-                            <input type="radio" name="isex" id="imas" required> Masculino
-                        </label>
-                        <label for="ifem">
-                            <input type="radio" name="isex" id="ifem" required> Feminino
-                        </label>
-                    </div>
-                
-                    <div class="sub">
-                        <label for="iver">
-                            <input type="submit" value="Enviar" id="iver">
-                        </label>
-                    </div>
-                </form>
+            <div class="sex">
+                <label>Sexo:</label>
+                <input type="radio" name="sex" id="imas" checked> Masculino
+                <input type="radio" name="sex" id="ifem"> Feminino
+            </div>
 
-                    <div class="preencher">
-                        <p class="img">Preencha os dados acima para ver os resultados!</p>
-                    </div>
+            <div class="sub">
+                <input type="submit" value="Enviar" id="iver">
+            </div>
 
-
-                
+            <!-- Resultado do texto e imagem ficam aqui -->
+            <div class="preencher">
+                <p class="img"></p>
             </div>
         </div>
-    </main>
+    </div>
 
     <footer>@Tyndra</footer>
-    <script src="idade.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
