@@ -1,14 +1,17 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corpo da página */
 body {
     background-color: rgb(84, 84, 202);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Cabeçalho */
 .title {
     margin-top: 10px;
     display: flex;
@@ -18,6 +21,7 @@ body {
     color: #fff;
 }
 
+/* Container principal */
 .container {
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@ body {
     text-align: center;
 }
 
+/* Bloco com os dados */
 .dados {
     background-color: #fff;
     width: 90dvh;
@@ -35,6 +40,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Campos do formulário */
 .date,
 .sex,
 .sub {
@@ -44,13 +50,12 @@ body {
     margin-top: 15px;
 }
 
+/* Mensagem para preencher */
 .preencher {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
- 
-
 }
 
 .preencha {
@@ -58,15 +63,8 @@ body {
     color: #333;
 }
 
-.contimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-}
-
-
-#iver{
+/* Estilo do botão */
+#iver {
     background-color: transparent;
     border: 1px solid black;
     border-radius: 10px;
@@ -74,17 +72,20 @@ body {
     cursor: pointer;
 }
 
+/* Rodapé */
 footer {
     text-align: center;
     margin-top: 40px;
     color: #fff;
 }
 
-#iano{
+/* Input de ano */
+#iano {
     width: 200px;
     text-align: center;
 }
 
-.img{
+/* Texto de resposta */
+.img {
     margin-bottom: 20px;
 }

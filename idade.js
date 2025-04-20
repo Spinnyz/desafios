@@ -3,14 +3,13 @@ var masculino = document.querySelector("input#imas");
 var feminino = document.querySelector("input#ifem");
 var atualano = document.querySelector("input#iano");
 var botao = document.querySelector("input#iver");
-var text =  document.querySelector("p.img");
-
+var text = document.querySelector("p.img");
 
 function analizador(event) {
-    event.preventDefault();
+    event.preventDefault(); // impede o envio do form
+
     var nascimento = Number(atualano.value);
-    var img =document.createdElement("img")
-        img.setAttribute("src")
+
     if (
         nascimento > ano ||
         atualano.value.length !== 4 ||
@@ -19,31 +18,35 @@ function analizador(event) {
         alert("Ano inválido");
     } else {
         var genero = "";
+        var idade = ano - nascimento;
+        var img = document.createElement("img");
 
         if (masculino.checked) {
             genero = "Masculino";
 
-            if (ano - nascimento > 18) {
-                img.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUsBs_9UpHFqt40spxuJZXqx119WatMesMQ&s");
-                
+            if (idade > 18) {
+                img.setAttribute("src", "https://picsum.photos/200");
+
             } else {
-                img.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUsBs_9UpHFqt40spxuJZXqx119WatMesMQ&s");
+                img.setAttribute("src", "https://picsum.photos/200");
+
             }
 
         } else if (feminino.checked) {
             genero = "Feminino";
 
-            if (ano - nascimento > 18) {
-                // adulta
+            if (idade > 18) {
+                img.setAttribute("src", "https://picsum.photos/200");
+
             } else {
-                // mlk
+                img.setAttribute("src", "https://picsum.photos/200");
+
             }
         }
 
-        text.innerHTML = `Você nasceu em ${nascimento}, então você tem ${ano - nascimento} anos de idade. Além disso, seu gênero é ${genero}.`;
-        text.appendChild(img)
+        text.innerHTML = `Você nasceu em ${nascimento}, então você tem ${idade} anos de idade. Além disso, seu gênero é ${genero}.<br>`;
+        text.appendChild(img);
     }
 }
 
 botao.addEventListener("click", analizador);
-
