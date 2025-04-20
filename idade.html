@@ -19,17 +19,17 @@
                 <form action="">
                     <div class="date">
                         <label for="iano">Ano de nascimento:
-                            <input type="number" name="ano" id="iano">
+                            <input type="number" name="ano" id="iano" placeholder="Digite o ano de nascimento" required max="2025" min="1908"> 
                         </label>
                     </div>
 
                     <div class="sex">
                         Sexo:
                         <label for="imas">
-                            <input type="radio" name="isex" id="imas"> Masculino
+                            <input type="radio" name="isex" id="imas" required> Masculino
                         </label>
                         <label for="ifem">
-                            <input type="radio" name="isex" id="ifem"> Feminino
+                            <input type="radio" name="isex" id="ifem" required> Feminino
                         </label>
                     </div>
 
@@ -44,8 +44,9 @@
                     </div>
 
                     <div class="preencher">
-                        <p class="preencha">Preencha os dados acima para ver os resultados!</p>
+                        <p class="img">Preencha os dados acima para ver os resultados!</p>
                     </div>
+
 
                 </form>
             </div>
