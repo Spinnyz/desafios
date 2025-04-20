@@ -6,9 +6,11 @@ var botao = document.querySelector("input#iver");
 var text =  document.querySelector("p.img");
 
 
-function analizador() {
+function analizador(event) {
+    event.preventDefault();
     var nascimento = Number(atualano.value);
-
+    var img =document.createdElement("img")
+        img.setAttribute("src")
     if (
         nascimento > ano ||
         atualano.value.length !== 4 ||
@@ -22,9 +24,10 @@ function analizador() {
             genero = "Masculino";
 
             if (ano - nascimento > 18) {
-                // adulto
+                img.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUsBs_9UpHFqt40spxuJZXqx119WatMesMQ&s");
+                
             } else {
-                // mlk
+                img.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUsBs_9UpHFqt40spxuJZXqx119WatMesMQ&s");
             }
 
         } else if (feminino.checked) {
@@ -38,7 +41,9 @@ function analizador() {
         }
 
         text.innerHTML = `Você nasceu em ${nascimento}, então você tem ${ano - nascimento} anos de idade. Além disso, seu gênero é ${genero}.`;
+        text.appendChild(img)
     }
 }
 
 botao.addEventListener("click", analizador);
+
