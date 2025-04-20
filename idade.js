@@ -9,13 +9,15 @@ var img = document.querySelector ("p.img")
 function analizador(){
     if (Number(atualano.value) > ano || atualano.value.length < 4 || atualano.value.length > 4 || Number(atualano.value) < 1908) {
         alert ("Ano inválido")
-    }else {
+    }else{
         text.innerHTML = `Você nasceu em ${Number(atualano.value)} então você tem ${ano - atualano.value} anos de idade }`
-        
+        else if (masculino.checked) {
+            var genero = "Masculino"
+            
+        } else if (feminino.checked) {
+            var genero = "Feminino"
 
     }
-
-
 }
 
 botão.addEventListener ("click", analizador)
