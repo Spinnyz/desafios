@@ -33,11 +33,14 @@ body {
 .dados {
     background-color: #fff;
     width: 90dvh;
-    height: 30dvh;
+    min-height: 40dvh;
     padding: 20px;
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Campos do formulário */
@@ -50,17 +53,27 @@ body {
     margin-top: 15px;
 }
 
-/* Mensagem para preencher */
+/* Resultado (texto e imagem) */
 .preencher {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    margin-top: 20px;
 }
 
-.preencha {
+.texto {
     font-size: 18px;
-    color: #333;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Imagem gerada */
+.preencher img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00000050;
 }
 
 /* Estilo do botão */
@@ -79,25 +92,8 @@ footer {
     color: #fff;
 }
 
-/* Input de ano */
+/* Input do ano */
 #iano {
     width: 200px;
     text-align: center;
-}
-
-/* Texto de resposta */
-.img {
-    margin-bottom: 20px;
-}
-.texto {
-    font-size: 18px;
-    margin-top: 20px;
-    color: #000;
-}
-
-.texto, img {
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 10px;
-    box-shadow: 0 0 10px #00000050;
 }
