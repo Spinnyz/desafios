@@ -64,8 +64,9 @@ body {
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/09/08/age-1869250_1280.png");
+    width: 300px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
