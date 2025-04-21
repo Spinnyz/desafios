@@ -65,3 +65,14 @@ body{
     background-color: rgb(0, 255, 0);
     transition: 0.5s;
 }
+
+#result{
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+    
+}
