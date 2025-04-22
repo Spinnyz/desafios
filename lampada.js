@@ -1,5 +1,5 @@
 var ligar = document.querySelector (".butaol")
-var desligar = document.querySelector (".butao2")
+var desligar = document.querySelector (".butaod")
 
 function ligdes(){
     alert ("funciona")
