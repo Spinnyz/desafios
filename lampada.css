@@ -17,5 +17,11 @@ h1{
 }
 
 button{
-   background-color: transparent
+   background-color: transparent;
+   border: 1px solid black;
+   width: 100px;
+   padding: 10px;
+   border-radius: 5px;
+    cursor: pointer;
+    
 }
