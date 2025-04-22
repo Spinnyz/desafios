@@ -6,4 +6,4 @@ function ligdes(){
 }
 
 
-ligar.addEventListener ("click",ligdes)
+desligar.addEventListener ("click",ligdes)
