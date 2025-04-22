@@ -1,5 +1,6 @@
 var ligar = document.querySelector (".butaol")
 var desligar = document.querySelector (".butaod")
+var lampada = document.querySelector ("#lampada")
 
 function ligar(){
    
