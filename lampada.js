@@ -1,9 +1,10 @@
 var ligar = document.querySelector (".butaol")
 var desligar = document.querySelector (".butaod")
 
-function ligdes(){
-    alert ("funciona")
+function ligar(){
+   
 }
 
 
 desligar.addEventListener ("click",ligdes)
+ligar.addEventListener ("click",ligar)
