@@ -23,7 +23,7 @@ if (i <f){
 //crescente    
     
 do {    
-    texto.innerHTML += ` ${x} 👉`
+    texto.innerHTML += ` ${x} 👉 <br>`
     x+=p
 }   while (x<=f)
     
@@ -31,7 +31,7 @@ do {
 else {
     do{
         //des=crescente
-        texto.innerHTML += ` ${x} 👉`
+        texto.innerHTML += ` ${x} 👉<br>`
         x+=p
     }while (x>=f)
     
