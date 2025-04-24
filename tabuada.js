@@ -6,3 +6,5 @@ function calcular(){
         alert ("Digite um valor")
     }
 }
+
+gerar.addEventListener ("click",calcular)
