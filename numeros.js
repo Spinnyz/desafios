@@ -30,6 +30,7 @@ do {
 }
 else {
     do{
+        //des=crescente
         texto.innerHTML += ` ${x} 👉`
         x+=p
     }while (x>=f)
