@@ -1,6 +1,6 @@
 var inicio = document.querySelector ("input#ivalor")
 var calculart = document.querySelector ("button#btnCalcular")
-var select = document.querySelector ("select#operacao")
+var select = document.querySelector ("#ioperacao")
 
 function calcular(){
     inicio.innerHTML =" "
@@ -8,9 +8,12 @@ function calcular(){
         alert ("insira um valor")
     }else {
         var i = Number(inicio.value)
-        var c = 10  
+        var c = 1
         do{
+            let item = document.createElement("option");
             select.innerHTML = `${i} X ${c} = ${i*c}`
+            select.appendChild(item);
+            c++
         }while (c <=10)
     }
 }
