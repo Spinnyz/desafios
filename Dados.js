@@ -6,7 +6,7 @@ function sorte() {
     const valor = Math.floor(Math.random() * 20) + 1
     numero.innerHTML = valor
 
-    // Reset de estilos
+
     fundo.style.backgroundColor = "white"
     botao.style.backgroundColor = "white"
     numero.style.color = "black"
