@@ -23,7 +23,7 @@ function sorte() {
     } else if (valor === 20) {
         aplicarCor("blue")
     } else {
-        aplicarCor("aqua") // ou qualquer cor para o 19
+        aplicarCor("aqua") 
     }
 }
 
